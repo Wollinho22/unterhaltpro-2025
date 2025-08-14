@@ -29,4 +29,4 @@ COPY . /app
 EXPOSE 7860
 
 # Start Streamlit on the expected interface/port
-CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
